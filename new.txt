@@ -3,3 +3,4 @@ addtestest
 Test Repository copy to s3 second copy
 with credentials added
 added aws keys
+added aws keys and s3 copy
