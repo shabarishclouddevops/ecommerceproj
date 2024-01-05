@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('stage1') {
+            steps {
+                echo 'Hello World from pipeline'
+                sh "ls -a"
+            }
+        }
+        stage('stage2') {
+            steps {
+                echo 'Hello World from pipeline'
+            }
+        }
+    }
+}
